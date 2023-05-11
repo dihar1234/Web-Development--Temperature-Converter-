@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+body {
+    font-family: 'Kanit', sans-serif;
+    background-image: url(temperature.png);
+    background-repeat: none;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-image:url(background.jpg) ;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .input-container {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  input[type="number"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  input[type="number"]::-webkit-input-placeholder {
+    color: #999;
+  }
+  
+  input[type="number"]::-moz-placeholder {
+    color: #999;
+  }
+  
+  input[type="number"]:-ms-input-placeholder {
+    color: #999;
+  }
+  
+  input[type="number"]::-ms-input-placeholder {
+    color: #999;
+  }
+  
+  input[type="number"]::placeholder {
+    color: #999;
+  }
+  
+  .input-container::after {
+    content: "°";
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+    color: #999;
+  }
+  
+  
