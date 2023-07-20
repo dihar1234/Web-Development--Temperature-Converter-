@@ -68,6 +68,7 @@ body {
   
   input[type="number"]::placeholder {
     color: #999;
+      
   }
   
   .input-container::after {
